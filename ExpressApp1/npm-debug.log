@@ -1,0 +1,182 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.39
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 warn package.json express-app1@0.0.0 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'C:\\Users\\sharv27\\Documents\\ProjectsTempV\\ExpressApp1\\ExpressApp1',
+7 verbose install   [ 'express', 'jade', 'stylus' ] ]
+8 info preinstall express-app1@0.0.0
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'express@3.4.4', null ]
+11 verbose cache add name=undefined spec="express@3.4.4" args=["express@3.4.4",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'express@3.4.4',
+12 verbose parsed url   path: 'express@3.4.4',
+12 verbose parsed url   href: 'express@3.4.4' }
+13 verbose cache add [ 'jade@*', null ]
+14 verbose cache add name=undefined spec="jade@*" args=["jade@*",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'jade@*',
+15 verbose parsed url   path: 'jade@*',
+15 verbose parsed url   href: 'jade@*' }
+16 verbose cache add [ 'stylus@*', null ]
+17 verbose cache add name=undefined spec="stylus@*" args=["stylus@*",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'stylus@*',
+18 verbose parsed url   path: 'stylus@*',
+18 verbose parsed url   href: 'stylus@*' }
+19 verbose cache add name="express" spec="3.4.4" args=["express","3.4.4"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '3.4.4',
+20 verbose parsed url   path: '3.4.4',
+20 verbose parsed url   href: '3.4.4' }
+21 verbose addNamed [ 'express', '3.4.4' ]
+22 verbose addNamed [ '3.4.4', '3.4.4' ]
+23 verbose cache add name="jade" spec="*" args=["jade","*"]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: '*',
+24 verbose parsed url   path: '*',
+24 verbose parsed url   href: '*' }
+25 verbose addNamed [ 'jade', '*' ]
+26 verbose addNamed [ null, '*' ]
+27 verbose cache add name="stylus" spec="*" args=["stylus","*"]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: '*',
+28 verbose parsed url   path: '*',
+28 verbose parsed url   href: '*' }
+29 verbose addNamed [ 'stylus', '*' ]
+30 verbose addNamed [ null, '*' ]
+31 silly lockFile edcc27a2-express-3-4-4 express@3.4.4
+32 verbose lock express@3.4.4 C:\Users\sharv27\AppData\Roaming\npm-cache\edcc27a2-express-3-4-4.lock
+33 silly lockFile ad03ed78-jade jade@*
+34 verbose lock jade@* C:\Users\sharv27\AppData\Roaming\npm-cache\ad03ed78-jade.lock
+35 silly lockFile 7849533d-stylus stylus@*
+36 verbose lock stylus@* C:\Users\sharv27\AppData\Roaming\npm-cache\7849533d-stylus.lock
+37 silly addNameRange { name: 'jade', range: '*', hasData: false }
+38 silly addNameRange { name: 'stylus', range: '*', hasData: false }
+39 verbose request where is /nexus/content/groups/npm_ocio_closed/stylus
+40 verbose request registry http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/
+41 verbose request id b1791aa2099f5be9
+42 verbose url raw /nexus/content/groups/npm_ocio_closed/stylus
+43 verbose url resolving [ 'http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/',
+43 verbose url resolving   './nexus/content/groups/npm_ocio_closed/stylus' ]
+44 verbose url resolved http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/stylus
+45 verbose request where is http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/stylus
+46 info trying registry request attempt 1 at 21:49:21
+47 http GET http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/stylus
+48 verbose request where is /nexus/content/groups/npm_ocio_closed/express
+49 verbose request registry http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/
+50 verbose url raw /nexus/content/groups/npm_ocio_closed/express
+51 verbose url resolving [ 'http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/',
+51 verbose url resolving   './nexus/content/groups/npm_ocio_closed/express' ]
+52 verbose url resolved http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/express
+53 verbose request where is http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/express
+54 info trying registry request attempt 1 at 21:49:21
+55 http GET http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/express
+56 verbose request where is /nexus/content/groups/npm_ocio_closed/jade
+57 verbose request registry http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/
+58 verbose url raw /nexus/content/groups/npm_ocio_closed/jade
+59 verbose url resolving [ 'http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/',
+59 verbose url resolving   './nexus/content/groups/npm_ocio_closed/jade' ]
+60 verbose url resolved http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/jade
+61 verbose request where is http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/jade
+62 info trying registry request attempt 1 at 21:49:21
+63 http GET http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/jade
+64 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+65 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+66 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+67 info trying registry request attempt 2 at 21:49:32
+68 http GET http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/express
+69 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+70 info trying registry request attempt 2 at 21:49:32
+71 http GET http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/stylus
+72 info trying registry request attempt 2 at 21:49:32
+73 http GET http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/jade
+74 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+75 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+76 info trying registry request attempt 3 at 21:50:31
+77 http GET http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/express
+78 silly registry.get cb [ 304, undefined ]
+79 silly lockFile edcc27a2-express-3-4-4 express@3.4.4
+80 silly lockFile edcc27a2-express-3-4-4 express@3.4.4
+81 info trying registry request attempt 3 at 21:50:32
+82 http GET http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/stylus
+83 info trying registry request attempt 3 at 21:50:32
+84 http GET http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/jade
+85 silly lockFile 7849533d-stylus stylus@*
+86 silly lockFile 7849533d-stylus stylus@*
+87 silly registry.get cb [ 304, undefined ]
+88 silly lockFile ad03ed78-jade jade@*
+89 silly lockFile ad03ed78-jade jade@*
+90 error Error: failed to fetch from registry: http://td-rhel6-91a78.dynamic.ocio.cloud.td.com:8080/nexus/content/groups/npm_ocio_closed/express
+90 error     at RegClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:159:18)
+90 error     at cb (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:57:9)
+90 error     at RegClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:156:10)
+90 error     at cb (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:166:9)
+90 error     at RegClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:259:20)
+90 error     at Request._callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:238:20)
+90 error     at self.callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:236:22)
+90 error     at Request.emit (events.js:117:20)
+90 error     at ClientRequest.self.clientErrorHandler (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:341:10)
+90 error     at ClientRequest.emit (events.js:95:17)
+91 error If you need help, you may report this *entire* log,
+91 error including the npm and node versions, at:
+91 error     <http://github.com/npm/npm/issues>
+92 error System Windows_NT 6.1.7601
+93 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+94 error cwd C:\Users\sharv27\Documents\ProjectsTempV\ExpressApp1\ExpressApp1
+95 error node -v v0.10.39
+96 error npm -v 1.4.28
+97 verbose exit [ 1, true ]
